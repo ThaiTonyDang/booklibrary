@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryRepository.Models
 {
-    internal class Magazine
+    public class Magazine : Publication
     {
+        public int IssueNumber { get; set; }
+        public string Topic { get; set; }
     }
 }

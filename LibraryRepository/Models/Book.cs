@@ -9,6 +9,6 @@ namespace LibraryRepository.Models
     public class Book : Publication
     {
         public string Genre { get; set; }
-        public string Languare { get; set; }
+        public string Language { get; set; }
     }
 }
